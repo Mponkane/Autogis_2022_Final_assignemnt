@@ -81,3 +81,36 @@ Collected data can be used for multiple different location based analysis. Becau
 - Geopandas: https://geopandas.org/en/stable/index.html
 - Pandas: https://pandas.pydata.org/docs/index.html
 - Service geoparser repository is done in collaboration with Henrikki Tenkanen
+
+## Final assignment grading
+
+**Programming (data preparation)**: 4.5/5
+**Documentation**: 4.5/5
+**Merits:** 
+ - Using programming for own (MSc) project
+ - Applying object oriented programming
+ - Apropriate naming of functions
+ - Modular code
+ - Applying advanced web crawling techniques 
+ - Clear documentation
+ 
+Some ideas for improving the work:
+ - the codes contain some "hard coded" parts, such as defining the cookie path and  fixing the addresses. These could be implemented in a way that there would not be need to hardcode anything to the script. E.g. the address fixes could be fed to the program from a JSON file (or something similar) and the cookie path could be defined as an argument when running the program. 
+ - there could be docstrings attached to the functions
+ 
+**Grade**: 5/5
+
+## Points from the exercises
+
+**Exercise points**:
+- Exercise 1: 20/20
+- Exercise 2: 20/20
+- Exercise 3: 19.5/20
+- Exercise 4: 20/20
+- Exercise 5: 19.5/20
+- Exercise 6: 20/20
+
+## Course grading
+
+**Course grade:**
+ - 5/5 -> Fantastic work!
