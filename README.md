@@ -72,7 +72,7 @@ Number of pharmacies geolocated: 803
 ![pharmacies](https://user-images.githubusercontent.com/105248249/198873220-2c355c01-2e03-468d-bf7a-db37b7c9bf50.png)
 
 
-Collected data can be used for multiple different analysis location based analysis. Because the stores are categorized by their type (i.e., size) they can be used to analyze e.g. service type reach or availability issues.
+Collected data can be used for multiple different location based analysis. Because the stores are categorized by their type (i.e., size) they can be used to analyze e.g. service type reach or availability issues.
 
 ### References:
 - Selenium: https://selenium-python.readthedocs.io/
