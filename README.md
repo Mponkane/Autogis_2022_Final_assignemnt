@@ -31,7 +31,7 @@ For my master's thesis: "Measuring accessibility equity - GIS-based approach for
 From the perspective of daily mobility, services like grocery stores and pharmacies are a crucial opportunity type to be able to access. Yet, up to date location data about them can be hard to acquire. For this purpose we decided to create a repository that would help provide such data. My contribution to this repository is also the final assignment for this Autogis course. Specifically the S-group parser and pharmacy parser
 
 ### Structure of this repository:
-A more detailed look of my work and the scripts can be found in the `Service geoparser` repository: `https://github.com/AaltoGIS/service_geoparser`
+A more detailed look of my work and the scripts can be found in the `Service geoparser` repository: https://github.com/AaltoGIS/service_geoparser
 
 From there you can find scripts to geoparse and geocode different service types across Finland. Specifically the `get_info_for_sgroup.py` and `get_info_for_pharmacies.py` are my contribution.
 
@@ -44,7 +44,7 @@ Packages (and what they are used for):
 - Time (used for specific parsing instances where webcrawler needs to pause to prevent e.g. dataloss)
 
 Data is collected from service provider websites, using Selenium webdriver functionality:
-- S-group stores `https://www.s-kaupat.fi/myymalat`
+- S-group stores https://www.s-kaupat.fi/myymalat
 - Finnish pharmacies 'https://www.apteekki.fi/apteekkihaku.html'
 
 ### Analysis steps:
@@ -64,10 +64,13 @@ Data is collected from service provider websites, using Selenium webdriver funct
 
 ### Results:
 Number of S-group grocery stores geolocated: 975
+
 ![S-group stores](https://user-images.githubusercontent.com/105248249/198872104-26011cc2-0d3d-40d5-9d32-28fdc49eedd2.png)
 
 Number of pharmacies geolocated: 803
-![S-group stores](https://user-images.githubusercontent.com/105248249/198872140-ad963722-cb5e-404f-a309-0ce67332d47c.png)
+
+![pharmacies](https://user-images.githubusercontent.com/105248249/198873220-2c355c01-2e03-468d-bf7a-db37b7c9bf50.png)
+
 
 Collected data can be used for multiple different analysis location based analysis. Because the stores are categorized by their type (i.e., size) they can be used to analyze e.g. service type reach or availability issues.
 
